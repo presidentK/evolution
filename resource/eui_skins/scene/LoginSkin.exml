@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="LoginSkin" width="375" height="667" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+<e:Skin class="LoginSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
 	<w:Config id="177f751a3f5" ></w:Config>
-	<e:Image id="bg" source="bg2_jpg" x="0" y="0" width="375" height="667" zIndex="0"/>
-	<e:Image id="loginBtn" source="btn_login_png" x="75.5" y="463.239"/>
-    <e:ProgressBar id="progressBar" y="550" height="30" width="315" horizontalCenter="0" value="0"/>
+	<e:Image id="bg" source="bg2_jpg" width="750" height="1334" zIndex="0" left="0" top="0"/>
+	<e:Image id="loginBtn" source="btn_login_png" y="900" horizontalCenter="0"/>
+    <e:ProgressBar id="progressBar" y="1000" height="30" width="315" value="0" horizontalCenter="0"/>
 </e:Skin>

@@ -93,6 +93,14 @@ class Main extends eui.UILayer {
      * Create scene interface
      */
     protected createGameScene(): void {
+        if (egret.Capabilities.isMobile == true) {
+            this.stage.orientation = egret.OrientationMode.PORTRAIT;
+            this.stage.scaleMode = egret.StageScaleMode.EXACT_FIT;
+        }
+        else {
+            this.stage.orientation = egret.OrientationMode.AUTO;
+             this.stage.scaleMode = egret.StageScaleMode.SHOW_ALL;
+        }
         let rootScene=new egret.Sprite();
         rootScene.x=0;
         rootScene.y=0;
