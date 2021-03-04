@@ -16,6 +16,6 @@
 		"bin-debug/ThemeAdapter.js",
 		"bin-debug/common/config.js",
 		"bin-debug/common/SceneManager.js",
-		"bin-debug/scene/Login.js"
+		"bin-debug/scene/LoginScene.js"
 	]
 }
