@@ -98,11 +98,9 @@ class Main extends eui.UILayer {
         rootScene.y=0;
         rootScene.width=this.stage.width;
         rootScene.height=this.stage.height;
-        rootScene.addEventListener(egret.Event.ADDED,()=>{
-            SceneManager.go(LoginScene)
-        },this);
-        this.addChild(rootScene);
         SceneManager.init(rootScene);
+        this.addChild(rootScene);
+        SceneManager.go(LoginScene);
     }
 
 }
