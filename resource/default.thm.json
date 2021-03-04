@@ -13,7 +13,8 @@
 		"eui.VScrollBar": "resource/eui_skins/VScrollBarSkin.exml",
 		"eui.VSlider": "resource/eui_skins/VSliderSkin.exml",
 		"eui.ItemRenderer": "resource/eui_skins/ItemRendererSkin.exml",
-		"LoginScene": "resource/eui_skins/scene/LoginSkin.exml"
+		"LoginScene": "resource/eui_skins/scene/LoginSkin.exml",
+		"IndexScene": "resource/eui_skins/scene/IndexSkin.exml"
 	},
 	"autoGenerateExmlsList": true,
 	"exmls": [
@@ -25,6 +26,7 @@
 		"resource/eui_skins/PanelSkin.exml",
 		"resource/eui_skins/ProgressBarSkin.exml",
 		"resource/eui_skins/RadioButtonSkin.exml",
+		"resource/eui_skins/scene/IndexSkin.exml",
 		"resource/eui_skins/scene/LoginSkin.exml",
 		"resource/eui_skins/ScrollerSkin.exml",
 		"resource/eui_skins/TextInputSkin.exml",

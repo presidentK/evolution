@@ -8,14 +8,6 @@
 		"libs/modules/promise/promise.js"
 	],
 	"game": [
-		"bin-debug/scene/BaseScene.js",
-		"bin-debug/AssetAdapter.js",
-		"bin-debug/LoadingUI.js",
-		"bin-debug/Main.js",
-		"bin-debug/Platform.js",
-		"bin-debug/ThemeAdapter.js",
-		"bin-debug/common/config.js",
-		"bin-debug/common/SceneManager.js",
-		"bin-debug/scene/LoginScene.js"
+		"main.js"
 	]
 }

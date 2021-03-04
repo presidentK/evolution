@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="LoginSkin" width="400" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+<e:Skin class="LoginSkin" width="375" height="667" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
 	<w:Config id="177f751a3f5" ></w:Config>
-	<e:Label id="label1" text="登录页面" x="165" y="118"/>
+	<e:Image id="bg" source="bg2_jpg" x="0" y="0" width="375" height="667" zIndex="0"/>
+	<e:Image id="loginBtn" source="btn_login_png" x="75.5" y="463.239"/>
+    <e:ProgressBar id="progressBar" y="550" height="30" width="315" horizontalCenter="0" value="0"/>
 </e:Skin>
